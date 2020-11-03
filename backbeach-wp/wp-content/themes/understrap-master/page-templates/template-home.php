@@ -12,9 +12,10 @@ defined( 'ABSPATH' ) || exit;
 
 get_header();
 ?>
-
+<div class="home">
 <div class="home-banner">
 
+</div>
 </div>
 
 <?php

@@ -34,29 +34,66 @@ $container = get_theme_mod('understrap_container_type');
 			<div class="top-header-holder">
 				<div class="container">
 					<div class="row align-items-end">
-						<div class="col-4">
+						<div class="col-md-4">
 							<a href="/" class="logo-holder">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/Nav-logo.svg" alt="Backbeach logo" width="275">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/Nav-logo.svg" alt="Backbeach logo">
 							</a>
 						</div>
-						<div class="col-6">
+						<div class="col-md-6">
 							<div class="reservation-holder">
 								<div class="contact-holder">
 									<a href="#" class="phone">
 										<i class="fa fa-phone"></i>
-										(561)-555-6666</a>
+										(561)-555-6666
+									</a>
 									<a href="#" class="address">
 										<i class="fa fa-map-marker"></i>
-										789 Atlantic Ave, Delray Beach</a>
+										789 Atlantic Ave, Delray Beach
+									</a>
+									<div class="social-media-holder-tablet">
+										<a href="#"><i class="fa fa-facebook-square"></i></a>
+										<a href="#"><i class=" fa fa-instagram"></i></a>
+									</div>
+									<button class="navbar-toggler md-view" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'understrap'); ?>">
+										<div class="menu-title">
+											Menu
+										</div>
+										<div>
+											<div class="bar"></div>
+											<div class="bar"></div>
+											<div class="bar"></div>
+										</div>
+										<!-- <span class="navbar-toggler-icon">
+								</span> -->
+									</button>
 								</div>
 								<a href="#" class="reservation-btn">Make a Reservation</a>
 							</div>
 						</div>
 						<div class="col-">
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'understrap'); ?>">
+								<div class="bar"></div>
+								<div class="bar"></div>
+								<div class="bar"></div>
+								<div class="menu-title">Menu</div>
+								<!-- <span class="navbar-toggler-icon">
+								</span> -->
+							</button>
 							<div class="social-media-holder">
-								<a href="#"><i class=" fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-facebook-square"></i></a>
 								<a href="#"><i class=" fa fa-instagram"></i></a>
 							</div>
+						</div>
+					</div>
+					<!-- create new div to control mobile version of logo -->
+					<div class="mobile-logo-holder">
+						<div>
+							<a href="/">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/Nav-logo.svg" alt="Backbeach logo">
+							</a>
+						</div>
+						<div>
+							<a href="#" class="reservation-btn mobile">Make a Reservation</a>
 						</div>
 					</div>
 				</div>
