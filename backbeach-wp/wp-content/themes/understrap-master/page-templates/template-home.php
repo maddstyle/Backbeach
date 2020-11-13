@@ -80,7 +80,7 @@ get_header();
   <div class="bg-image"></div>
   <div class="container">
     <div class="row aligh-items-center">
-      <div class="col-xl-5 col-lg-6">
+      <div class="col-xl-5 col-md-6">
         <a href="#" class="news-img">
           <div class="image"></div>
           <div class="date">Fri Feb 14th</div>
@@ -90,7 +90,7 @@ get_header();
       <!-- use this one column as a space -->
       <div class="col-xl-1 d-none d-xl-block">
       </div>
-      <div class="col-lg-6">
+      <div class="col-md-6">
         <h2>Valentine's Day</h2>
         <div class="content-holder">
           <p>Join us and Celebrate Love with a special tasting menu featuring Steak and Seafood. Lunch is pretty full but we're taking dinner bookings for our full a la carte dinner menu for two. Have a romantic dinner on the beach with your loved one. All dinner reservations receive a complimentary box of chocolates too...
@@ -98,6 +98,39 @@ get_header();
         </div>
         <div href="#" class="button">
           Read More<i class="fa fa-chevron-right"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="home-about">
+<div class="bg-image"></div>
+  <div class="title-holder">
+  
+    <div class="container">
+    
+      <h2>
+        <span>Served Fresh</span><br>
+        from our farm to your table 
+      </h2>
+      </div>
+    
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-8">
+        <p class="tagline">
+        A place to grab lunch on the go or linger over a delicious farm to table meal with family, friends and business associates. 
+        </p>
+        <p>
+        The restaurant sources exceptionally clean ingredients from the best local farms and seeks to make dishes that are nutritious and nourishing to the body, while still providing flavor satisfaction.
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <div class="button">
+          Dig Deeper<i class="fa fa-chevron-right"></i>
         </div>
       </div>
     </div>
