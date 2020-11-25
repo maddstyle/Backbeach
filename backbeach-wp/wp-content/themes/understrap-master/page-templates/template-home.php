@@ -105,32 +105,79 @@ get_header();
 </div>
 
 <div class="home-about">
-<div class="bg-image"></div>
+  <div class="bg-image">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/vectorTop.png" alt="top cutout" width="100%">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/vectorBottom.png" alt="bottom cutout">
+  </div>
   <div class="title-holder">
-  
+
     <div class="container">
-    
+
       <h2>
         <span>Served Fresh</span><br>
-        from our farm to your table 
+        from our farm to your table
       </h2>
-      </div>
-    
+    </div>
+
   </div>
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
       <div class="col-lg-8">
         <p class="tagline">
-        A place to grab lunch on the go or linger over a delicious farm to table meal with family, friends and business associates. 
+          A place to grab lunch on the go or linger over a delicious farm to table meal with family, friends and business associates.
         </p>
         <p>
-        The restaurant sources exceptionally clean ingredients from the best local farms and seeks to make dishes that are nutritious and nourishing to the body, while still providing flavor satisfaction.
+          The restaurant sources exceptionally clean ingredients from the best local farms and seeks to make dishes that are nutritious and nourishing to the body, while still providing flavor satisfaction.
         </p>
       </div>
       <div class="col-lg-3">
         <div class="button">
           Dig Deeper<i class="fa fa-chevron-right"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="home-about-images">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <a href="#" class="call-to-action">
+          <div class="image"></div>
+          <!-- <div class="title">Dining Menu</div> -->
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="call-to-action second">
+          <div class="image"></div>
+          <!-- <div class="title">Lunch Menu</div> -->
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="call-to-action third">
+          <div class="image"></div>
+          <!-- <div class="title">Events</div> -->
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="home-testimonials">
+  <div class="bg-overlay">
+
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5"></div>
+      <div class="col-lg-7">
+        <h2>Happy Customers</h2>
+        <div class="testimonial-holder">
+          <p>Ah! What a place. I could go have breakfast every day and not get tired by the view. The staff are very kind and helpful, and the food is AMAZING! A MUST visit place if you're visiting Delray Beach!</p>
+          <div class="seperator"></div>
+          <div class="author">John Bunce</div>
         </div>
       </div>
     </div>
