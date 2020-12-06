@@ -22,6 +22,7 @@ $container = get_theme_mod('understrap_container_type');
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.min.css">
 	<?php wp_head(); ?>
 </head>
 
@@ -36,7 +37,9 @@ $container = get_theme_mod('understrap_container_type');
 				<div class="container">
 					<div class="row align-items-end">
 						<div class="col-md-4">
-							<a href="/" class="logo-holder">
+							<a href="/" class="logo-holder <?php if ( is_front_page() ) {
+								?> wow fadeInDown <?php
+							} ?>">
 								<img src="<?php echo get_template_directory_uri(); ?>/images/Nav-logo.svg" alt="Backbeach logo">
 							</a>
 						</div>

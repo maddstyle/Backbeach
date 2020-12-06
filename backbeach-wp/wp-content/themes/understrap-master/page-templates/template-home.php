@@ -17,7 +17,9 @@ get_header();
 
 <div class="home-banner">
   <div class="container">
-    <h1>A Dining Experience</h1>
+    <h1 class="<?php if ( is_front_page() ) {
+								?> wow fadeInDown <?php
+							} ?>">A Dining Experience</h1>
   </div>
 </div>
 
@@ -237,6 +239,12 @@ get_header();
               </div>
             </div>
           </div>
+        </div>
+        <div class="instagram-holder">
+          <div class="title">
+            <i class="fa fa-instagram"></i>
+            @backbeachcafe</div>
+
         </div>
       </div>
     </div>
