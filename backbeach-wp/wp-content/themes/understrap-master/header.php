@@ -22,7 +22,6 @@ $container = get_theme_mod('understrap_container_type');
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/animate.min.css">
 	<?php wp_head(); ?>
 </head>
 
@@ -37,12 +36,14 @@ $container = get_theme_mod('understrap_container_type');
 				<div class="container">
 					<div class="row align-items-end">
 						<div class="col-md-4">
-							<a href="/" class="logo-holder wow fadeInDown">
+							<a href="/" class="logo-holder <?php if ( is_front_page() ) { ?> wow fadeInDown <?php
+							} ?>">
 								<img src="<?php echo get_template_directory_uri(); ?>/images/Nav-logo.svg" alt="Backbeach logo">
 							</a>
 						</div>
 						<div class="col-md-6">
-							<div class="reservation-holder">
+							<div class="reservation-holder <?php if ( is_front_page() ) { ?> wow fadeInDown <?php
+							} ?>" data-wow-delay="0.25s">
 								<div class="contact-holder">
 									<a href="#" class="phone">
 										<i class="fa fa-phone"></i>
@@ -72,7 +73,8 @@ $container = get_theme_mod('understrap_container_type');
 								<a href="#" class="reservation-btn">Make a Reservation</a>
 							</div>
 						</div>
-						<div class="col-">
+						<div class="col- <?php if ( is_front_page() ) { ?> wow fadeInDown <?php
+							} ?>" data-wow-delay="0.5s">
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'understrap'); ?>">
 								<div class="bar"></div>
 								<div class="bar"></div>
