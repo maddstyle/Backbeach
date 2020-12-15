@@ -37,9 +37,7 @@ $container = get_theme_mod('understrap_container_type');
 				<div class="container">
 					<div class="row align-items-end">
 						<div class="col-md-4">
-							<a href="/" class="logo-holder <?php if ( is_front_page() ) {
-								?> wow fadeInDown <?php
-							} ?>">
+							<a href="/" class="logo-holder wow fadeInDown">
 								<img src="<?php echo get_template_directory_uri(); ?>/images/Nav-logo.svg" alt="Backbeach logo">
 							</a>
 						</div>
